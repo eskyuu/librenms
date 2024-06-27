@@ -61,6 +61,7 @@ return [
             'distributed' => ['name' => 'Distributed Poller'],
             'graphite' => ['name' => 'Datastore: Graphite'],
             'influxdb' => ['name' => 'Datastore: InfluxDB'],
+            'influxdbv2' => ['name' => 'Datastore: InfluxDBv2'],
             'opentsdb' => ['name' => 'Datastore: OpenTSDB'],
             'ping' => ['name' => 'Ping'],
             'prometheus' => ['name' => 'Datastore: Prometheus'],
@@ -448,7 +449,7 @@ return [
         ],
         'auth_ldap_userdn' => [
             'description' => 'Use full user DN',
-            'help' => "Uses a user's full DN as the value of the member attribute in a group instead of member: username using the prefix and suffix. (it’s member: uid=username,ou=groups,dc=domain,dc=com)",
+            'help' => "Uses a user's full DN as the value of the member attribute in a group instead of member: username using the prefix and suffix. (it's member: uid=username,ou=groups,dc=domain,dc=com)",
         ],
         'auth_ldap_wildcard_ou' => [
             'description' => 'Wildcard user OU',
@@ -503,10 +504,6 @@ return [
         'base_url' => [
             'description' => 'Specific URL',
             'help' => 'This should *only* be set if you want to *force* a particular hostname/port. It will prevent the web interface being usable form any other hostname',
-        ],
-        'device_perf_purge' => [
-            'description' => 'Device performance entries older than',
-            'help' => 'Cleanup done by daily.sh',
         ],
         'discovery_modules' => [
             'arp-table' => [
@@ -760,11 +757,21 @@ return [
                     'openstreetmap' => 'OpenStreetMap',
                     'mapquest' => 'MapQuest',
                     'bing' => 'Bing Maps',
+                    'esri' => 'ESRI ArcGIS',
                 ],
             ],
             'latlng' => [
                 'description' => 'Attempt to Geocode Locations',
                 'help' => 'Try to lookup latitude and longitude via geocoding API during polling',
+            ],
+            'layer' => [
+                'description' => 'Initial Map Layer',
+                'help' => 'Initial map layer to display. *Not all layers are available for all mapping engines.',
+                'options' => [
+                    'Streets' => 'Streets',
+                    'Sattelite' => 'Sattelite',
+                    'Topography' => 'Topography',
+                ],
             ],
         ],
         'graphite' => [
@@ -934,6 +941,45 @@ return [
                 'help' => 'Verify the SSL certificate is valid and trusted',
             ],
         ],
+        'influxdbv2' => [
+            'bucket' => [
+                'description' => 'Bucket',
+                'help' => 'Name of the InfluxDB Bucket to store metrics',
+            ],
+            'enable' => [
+                'description' => 'Enable',
+                'help' => 'Exports metrics to InfluxDB using the InfluxDBv2 API',
+            ],
+            'host' => [
+                'description' => 'Server',
+                'help' => 'The IP or hostname of the InfluxDB server to send data to',
+            ],
+            'token' => [
+                'description' => 'Token',
+                'help' => 'Token to connect to InfluxDB, if required',
+            ],
+            'port' => [
+                'description' => 'Port',
+                'help' => 'The port to use to connect to the InfluxDB server',
+            ],
+            'transport' => [
+                'description' => 'Transport',
+                'help' => 'The port to use to connect to the InfluxDB server',
+                'options' => [
+                    'http' => 'HTTP',
+                    'https' => 'HTTPS',
+                ],
+            ],
+            'organization' => [
+                'description' => 'Organization',
+                'help' => 'The organization that contains the bucket on the InfluxDB server',
+            ],
+            'allow_redirects' => [
+                'description' => 'Allow Redirects',
+                'help' => 'To allow redirect from the InfluxDB server',
+            ],
+
+        ],
         'ipmitool' => [
             'description' => 'Path to ipmtool',
         ],
@@ -1005,6 +1051,10 @@ return [
         ],
         'nfsen_lasts' => [
             'description' => 'Default Last Options',
+        ],
+        'nfsen_base' => [
+            'description' => 'NFSen Base Directory',
+            'help' => 'Used to locate device specific graphs',
         ],
         'nfsen_split_char' => [
             'description' => 'Split Char',

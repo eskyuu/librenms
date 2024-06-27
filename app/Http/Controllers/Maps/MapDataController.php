@@ -544,6 +544,7 @@ class MapDataController extends Controller
         }
 
         if ($request->showpath > 0 && $request->highlight_node > 0) {
+            // Highlight all parents if required
             $processed_parents = [];
             $this_parents = $device_list[$request->highlight_node]['parents'];
 

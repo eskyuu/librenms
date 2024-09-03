@@ -5,6 +5,7 @@ namespace App\Console\Commands;
 use App\Console\LnmsCommand;
 use App\Events\DevicePolled;
 use App\Jobs\PollDevice;
+use App\Jobs\DispatchPollJobs;
 use App\Models\Device;
 use App\Polling\Measure\MeasurementManager;
 use Illuminate\Database\QueryException;
@@ -38,11 +39,16 @@ class DevicePoll extends LnmsCommand
 
     public function handle(MeasurementManager $measurements): int
     {
-        if ($this->option('dispatch')) {
-            return $this->dispatchWork();
-        }
-
         $this->configureOutputOptions();
+
+        if ($this->option('dispatch')) {
+            if (\config('queue.default') == 'sync') {
+                $this->error('Queue driver is sync, work will run in process.');
+                sleep(1);
+            } else {
+                return $this->dispatchWork();
+            }
+        }
 
         if ($this->option('no-data')) {
             Config::set('rrd.enable', false);
@@ -129,20 +135,9 @@ class DevicePoll extends LnmsCommand
 
     private function dispatchWork()
     {
-        \Log::setDefaultDriver('stack');
         $module_overrides = Module::parseUserOverrides(explode(',', $this->option('modules') ?? ''));
-        $devices = Device::whereDeviceSpec($this->argument('device spec'))->pluck('device_id');
 
-        if (\config('queue.default') == 'sync') {
-            $this->error('Queue driver is sync, work will run in process.');
-            sleep(1);
-        }
-
-        foreach ($devices as $device_id) {
-            PollDevice::dispatch($device_id, $module_overrides);
-        }
-
-        $this->line('Submitted work for ' . $devices->count() . ' devices');
+        DispatchPollJobs::dispatchSync($this->argument('device spec'), $this->getOutput()->getVerbosity(), $module_overrides);
 
         return 0;
     }

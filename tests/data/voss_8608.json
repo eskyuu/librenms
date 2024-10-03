@@ -7837,8 +7837,8 @@
                     "ifName": "mgmt",
                     "portName": null,
                     "ifIndex": 64,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -7937,8 +7937,8 @@
                     "ifName": "mgmt2",
                     "portName": null,
                     "ifIndex": 128,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -8237,8 +8237,8 @@
                     "ifName": "1/3",
                     "portName": null,
                     "ifIndex": 200,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -8337,8 +8337,8 @@
                     "ifName": "1/4",
                     "portName": null,
                     "ifIndex": 204,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -8437,8 +8437,8 @@
                     "ifName": "1/5",
                     "portName": null,
                     "ifIndex": 208,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -8537,8 +8537,8 @@
                     "ifName": "1/6",
                     "portName": null,
                     "ifIndex": 209,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -8637,8 +8637,8 @@
                     "ifName": "1/7",
                     "portName": null,
                     "ifIndex": 210,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -8737,8 +8737,8 @@
                     "ifName": "1/8",
                     "portName": null,
                     "ifIndex": 211,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -8837,8 +8837,8 @@
                     "ifName": "1/9",
                     "portName": null,
                     "ifIndex": 212,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -8937,8 +8937,8 @@
                     "ifName": "1/10",
                     "portName": null,
                     "ifIndex": 213,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -9037,8 +9037,8 @@
                     "ifName": "1/11",
                     "portName": null,
                     "ifIndex": 214,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -9137,8 +9137,8 @@
                     "ifName": "1/12",
                     "portName": null,
                     "ifIndex": 215,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -9237,8 +9237,8 @@
                     "ifName": "1/13",
                     "portName": null,
                     "ifIndex": 216,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -9337,8 +9337,8 @@
                     "ifName": "1/14",
                     "portName": null,
                     "ifIndex": 217,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -9437,8 +9437,8 @@
                     "ifName": "1/15",
                     "portName": null,
                     "ifIndex": 218,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -9537,8 +9537,8 @@
                     "ifName": "1/16",
                     "portName": null,
                     "ifIndex": 219,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -9837,8 +9837,8 @@
                     "ifName": "2/3",
                     "portName": null,
                     "ifIndex": 264,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -9937,8 +9937,8 @@
                     "ifName": "2/4",
                     "portName": null,
                     "ifIndex": 268,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -10037,8 +10037,8 @@
                     "ifName": "2/5",
                     "portName": null,
                     "ifIndex": 272,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -10137,8 +10137,8 @@
                     "ifName": "2/6",
                     "portName": null,
                     "ifIndex": 276,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -10837,8 +10837,8 @@
                     "ifName": "3/7",
                     "portName": null,
                     "ifIndex": 326,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -10937,8 +10937,8 @@
                     "ifName": "3/8",
                     "portName": null,
                     "ifIndex": 327,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -11037,8 +11037,8 @@
                     "ifName": "3/9",
                     "portName": null,
                     "ifIndex": 328,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -11137,8 +11137,8 @@
                     "ifName": "3/10",
                     "portName": null,
                     "ifIndex": 329,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -11237,8 +11237,8 @@
                     "ifName": "3/11",
                     "portName": null,
                     "ifIndex": 330,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -11337,8 +11337,8 @@
                     "ifName": "3/12",
                     "portName": null,
                     "ifIndex": 331,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -11437,8 +11437,8 @@
                     "ifName": "3/13",
                     "portName": null,
                     "ifIndex": 332,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -11537,8 +11537,8 @@
                     "ifName": "3/14",
                     "portName": null,
                     "ifIndex": 333,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -11637,8 +11637,8 @@
                     "ifName": "3/15",
                     "portName": null,
                     "ifIndex": 334,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -11737,8 +11737,8 @@
                     "ifName": "3/16",
                     "portName": null,
                     "ifIndex": 335,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -11837,8 +11837,8 @@
                     "ifName": "3/17",
                     "portName": null,
                     "ifIndex": 336,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -11937,8 +11937,8 @@
                     "ifName": "3/18",
                     "portName": null,
                     "ifIndex": 337,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -12037,8 +12037,8 @@
                     "ifName": "3/19",
                     "portName": null,
                     "ifIndex": 338,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -12137,8 +12137,8 @@
                     "ifName": "3/20",
                     "portName": null,
                     "ifIndex": 339,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -13137,8 +13137,8 @@
                     "ifName": "4/6",
                     "portName": null,
                     "ifIndex": 389,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -13237,8 +13237,8 @@
                     "ifName": "4/7",
                     "portName": null,
                     "ifIndex": 390,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -13337,8 +13337,8 @@
                     "ifName": "4/8",
                     "portName": null,
                     "ifIndex": 391,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -13437,8 +13437,8 @@
                     "ifName": "4/9",
                     "portName": null,
                     "ifIndex": 392,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -13537,8 +13537,8 @@
                     "ifName": "4/10",
                     "portName": null,
                     "ifIndex": 393,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -13637,8 +13637,8 @@
                     "ifName": "4/11",
                     "portName": null,
                     "ifIndex": 394,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -13737,8 +13737,8 @@
                     "ifName": "4/12",
                     "portName": null,
                     "ifIndex": 395,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -13837,8 +13837,8 @@
                     "ifName": "4/13",
                     "portName": null,
                     "ifIndex": 396,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -13937,8 +13937,8 @@
                     "ifName": "4/14",
                     "portName": null,
                     "ifIndex": 397,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -14037,8 +14037,8 @@
                     "ifName": "4/15",
                     "portName": null,
                     "ifIndex": 398,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -14137,8 +14137,8 @@
                     "ifName": "4/16",
                     "portName": null,
                     "ifIndex": 399,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -14237,8 +14237,8 @@
                     "ifName": "4/17",
                     "portName": null,
                     "ifIndex": 400,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -14337,8 +14337,8 @@
                     "ifName": "4/18",
                     "portName": null,
                     "ifIndex": 401,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -14437,8 +14437,8 @@
                     "ifName": "4/19",
                     "portName": null,
                     "ifIndex": 402,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -14537,8 +14537,8 @@
                     "ifName": "4/20",
                     "portName": null,
                     "ifIndex": 403,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -14637,8 +14637,8 @@
                     "ifName": "4/21",
                     "portName": null,
                     "ifIndex": 404,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -14737,8 +14737,8 @@
                     "ifName": "4/22",
                     "portName": null,
                     "ifIndex": 405,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -14837,8 +14837,8 @@
                     "ifName": "4/23",
                     "portName": null,
                     "ifIndex": 406,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -14937,8 +14937,8 @@
                     "ifName": "4/24",
                     "portName": null,
                     "ifIndex": 407,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -15237,8 +15237,8 @@
                     "ifName": "6/3",
                     "portName": null,
                     "ifIndex": 520,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -15337,8 +15337,8 @@
                     "ifName": "6/4",
                     "portName": null,
                     "ifIndex": 524,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -15437,8 +15437,8 @@
                     "ifName": "6/5",
                     "portName": null,
                     "ifIndex": 528,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -15537,8 +15537,8 @@
                     "ifName": "6/6",
                     "portName": null,
                     "ifIndex": 532,
-                    "ifSpeed": 0,
-                    "ifSpeed_prev": null,
+                    "ifSpeed": null,
+                    "ifSpeed_prev": 0,
                     "ifConnectorPresent": "true",
                     "ifOperStatus": "down",
                     "ifOperStatus_prev": "down",
@@ -20357,7 +20357,7 @@
                     "entPhysicalContainedIn": 196,
                     "entPhysicalParentRelPos": 1,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 196
                 },
                 {
                     "entPhysicalIndex": 19602,
@@ -20376,7 +20376,7 @@
                     "entPhysicalContainedIn": 196,
                     "entPhysicalParentRelPos": 2,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 196
                 },
                 {
                     "entPhysicalIndex": 19603,
@@ -20395,7 +20395,7 @@
                     "entPhysicalContainedIn": 196,
                     "entPhysicalParentRelPos": 3,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 196
                 },
                 {
                     "entPhysicalIndex": 19604,
@@ -20414,7 +20414,7 @@
                     "entPhysicalContainedIn": 196,
                     "entPhysicalParentRelPos": 4,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 196
                 },
                 {
                     "entPhysicalIndex": 19605,
@@ -20433,7 +20433,7 @@
                     "entPhysicalContainedIn": 196,
                     "entPhysicalParentRelPos": 5,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 196
                 },
                 {
                     "entPhysicalIndex": 19606,
@@ -20452,7 +20452,7 @@
                     "entPhysicalContainedIn": 196,
                     "entPhysicalParentRelPos": 6,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 196
                 },
                 {
                     "entPhysicalIndex": 19607,
@@ -20471,7 +20471,7 @@
                     "entPhysicalContainedIn": 196,
                     "entPhysicalParentRelPos": 7,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 196
                 },
                 {
                     "entPhysicalIndex": 19608,
@@ -20490,7 +20490,7 @@
                     "entPhysicalContainedIn": 196,
                     "entPhysicalParentRelPos": 8,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 196
                 },
                 {
                     "entPhysicalIndex": 19609,
@@ -20509,7 +20509,7 @@
                     "entPhysicalContainedIn": 196,
                     "entPhysicalParentRelPos": 9,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 196
                 },
                 {
                     "entPhysicalIndex": 19610,
@@ -20528,7 +20528,7 @@
                     "entPhysicalContainedIn": 196,
                     "entPhysicalParentRelPos": 10,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 196
                 },
                 {
                     "entPhysicalIndex": 19611,
@@ -20547,7 +20547,7 @@
                     "entPhysicalContainedIn": 196,
                     "entPhysicalParentRelPos": 11,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 196
                 },
                 {
                     "entPhysicalIndex": 19612,
@@ -20566,7 +20566,7 @@
                     "entPhysicalContainedIn": 196,
                     "entPhysicalParentRelPos": 12,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 196
                 },
                 {
                     "entPhysicalIndex": 19613,
@@ -20585,7 +20585,7 @@
                     "entPhysicalContainedIn": 196,
                     "entPhysicalParentRelPos": 13,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 196
                 },
                 {
                     "entPhysicalIndex": 19614,
@@ -20604,7 +20604,7 @@
                     "entPhysicalContainedIn": 196,
                     "entPhysicalParentRelPos": 14,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 196
                 },
                 {
                     "entPhysicalIndex": 25601,
@@ -20623,7 +20623,7 @@
                     "entPhysicalContainedIn": 256,
                     "entPhysicalParentRelPos": 1,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 256
                 },
                 {
                     "entPhysicalIndex": 25602,
@@ -20642,7 +20642,7 @@
                     "entPhysicalContainedIn": 256,
                     "entPhysicalParentRelPos": 2,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 256
                 },
                 {
                     "entPhysicalIndex": 25603,
@@ -20661,7 +20661,7 @@
                     "entPhysicalContainedIn": 256,
                     "entPhysicalParentRelPos": 3,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 256
                 },
                 {
                     "entPhysicalIndex": 25604,
@@ -20680,7 +20680,7 @@
                     "entPhysicalContainedIn": 256,
                     "entPhysicalParentRelPos": 4,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 256
                 },
                 {
                     "entPhysicalIndex": 25605,
@@ -20699,7 +20699,7 @@
                     "entPhysicalContainedIn": 256,
                     "entPhysicalParentRelPos": 5,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 256
                 },
                 {
                     "entPhysicalIndex": 25606,
@@ -20718,7 +20718,7 @@
                     "entPhysicalContainedIn": 256,
                     "entPhysicalParentRelPos": 6,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 256
                 },
                 {
                     "entPhysicalIndex": 25607,
@@ -20737,7 +20737,7 @@
                     "entPhysicalContainedIn": 256,
                     "entPhysicalParentRelPos": 7,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 256
                 },
                 {
                     "entPhysicalIndex": 25608,
@@ -20756,7 +20756,7 @@
                     "entPhysicalContainedIn": 256,
                     "entPhysicalParentRelPos": 8,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 256
                 },
                 {
                     "entPhysicalIndex": 25609,
@@ -20775,7 +20775,7 @@
                     "entPhysicalContainedIn": 256,
                     "entPhysicalParentRelPos": 9,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 256
                 },
                 {
                     "entPhysicalIndex": 25610,
@@ -20794,7 +20794,7 @@
                     "entPhysicalContainedIn": 256,
                     "entPhysicalParentRelPos": 10,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 256
                 },
                 {
                     "entPhysicalIndex": 25611,
@@ -20813,7 +20813,7 @@
                     "entPhysicalContainedIn": 256,
                     "entPhysicalParentRelPos": 11,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 256
                 },
                 {
                     "entPhysicalIndex": 25612,
@@ -20832,7 +20832,7 @@
                     "entPhysicalContainedIn": 256,
                     "entPhysicalParentRelPos": 12,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 256
                 },
                 {
                     "entPhysicalIndex": 25613,
@@ -20851,7 +20851,7 @@
                     "entPhysicalContainedIn": 256,
                     "entPhysicalParentRelPos": 13,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 256
                 },
                 {
                     "entPhysicalIndex": 25614,
@@ -20870,7 +20870,7 @@
                     "entPhysicalContainedIn": 256,
                     "entPhysicalParentRelPos": 14,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 256
                 },
                 {
                     "entPhysicalIndex": 26001,
@@ -20889,7 +20889,7 @@
                     "entPhysicalContainedIn": 260,
                     "entPhysicalParentRelPos": 1,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 260
                 },
                 {
                     "entPhysicalIndex": 26002,
@@ -20908,7 +20908,7 @@
                     "entPhysicalContainedIn": 260,
                     "entPhysicalParentRelPos": 2,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 260
                 },
                 {
                     "entPhysicalIndex": 26003,
@@ -20927,7 +20927,7 @@
                     "entPhysicalContainedIn": 260,
                     "entPhysicalParentRelPos": 3,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 260
                 },
                 {
                     "entPhysicalIndex": 26004,
@@ -20946,7 +20946,7 @@
                     "entPhysicalContainedIn": 260,
                     "entPhysicalParentRelPos": 4,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 260
                 },
                 {
                     "entPhysicalIndex": 26005,
@@ -20965,7 +20965,7 @@
                     "entPhysicalContainedIn": 260,
                     "entPhysicalParentRelPos": 5,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 260
                 },
                 {
                     "entPhysicalIndex": 26006,
@@ -20984,7 +20984,7 @@
                     "entPhysicalContainedIn": 260,
                     "entPhysicalParentRelPos": 6,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 260
                 },
                 {
                     "entPhysicalIndex": 26007,
@@ -21003,7 +21003,7 @@
                     "entPhysicalContainedIn": 260,
                     "entPhysicalParentRelPos": 7,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 260
                 },
                 {
                     "entPhysicalIndex": 26008,
@@ -21022,7 +21022,7 @@
                     "entPhysicalContainedIn": 260,
                     "entPhysicalParentRelPos": 8,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 260
                 },
                 {
                     "entPhysicalIndex": 26009,
@@ -21041,7 +21041,7 @@
                     "entPhysicalContainedIn": 260,
                     "entPhysicalParentRelPos": 9,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 260
                 },
                 {
                     "entPhysicalIndex": 26010,
@@ -21060,7 +21060,7 @@
                     "entPhysicalContainedIn": 260,
                     "entPhysicalParentRelPos": 10,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 260
                 },
                 {
                     "entPhysicalIndex": 26011,
@@ -21079,7 +21079,7 @@
                     "entPhysicalContainedIn": 260,
                     "entPhysicalParentRelPos": 11,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 260
                 },
                 {
                     "entPhysicalIndex": 26012,
@@ -21098,7 +21098,7 @@
                     "entPhysicalContainedIn": 260,
                     "entPhysicalParentRelPos": 12,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 260
                 },
                 {
                     "entPhysicalIndex": 26013,
@@ -21117,7 +21117,7 @@
                     "entPhysicalContainedIn": 260,
                     "entPhysicalParentRelPos": 13,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 260
                 },
                 {
                     "entPhysicalIndex": 26014,
@@ -21136,7 +21136,7 @@
                     "entPhysicalContainedIn": 260,
                     "entPhysicalParentRelPos": 14,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 260
                 },
                 {
                     "entPhysicalIndex": 32001,
@@ -21155,7 +21155,7 @@
                     "entPhysicalContainedIn": 320,
                     "entPhysicalParentRelPos": 1,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 320
                 },
                 {
                     "entPhysicalIndex": 32002,
@@ -21174,7 +21174,7 @@
                     "entPhysicalContainedIn": 320,
                     "entPhysicalParentRelPos": 2,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 320
                 },
                 {
                     "entPhysicalIndex": 32003,
@@ -21193,7 +21193,7 @@
                     "entPhysicalContainedIn": 320,
                     "entPhysicalParentRelPos": 3,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 320
                 },
                 {
                     "entPhysicalIndex": 32004,
@@ -21212,7 +21212,7 @@
                     "entPhysicalContainedIn": 320,
                     "entPhysicalParentRelPos": 4,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 320
                 },
                 {
                     "entPhysicalIndex": 32005,
@@ -21231,7 +21231,7 @@
                     "entPhysicalContainedIn": 320,
                     "entPhysicalParentRelPos": 5,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 320
                 },
                 {
                     "entPhysicalIndex": 32101,
@@ -21250,7 +21250,7 @@
                     "entPhysicalContainedIn": 321,
                     "entPhysicalParentRelPos": 1,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 321
                 },
                 {
                     "entPhysicalIndex": 32102,
@@ -21269,7 +21269,7 @@
                     "entPhysicalContainedIn": 321,
                     "entPhysicalParentRelPos": 2,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 321
                 },
                 {
                     "entPhysicalIndex": 32103,
@@ -21288,7 +21288,7 @@
                     "entPhysicalContainedIn": 321,
                     "entPhysicalParentRelPos": 3,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 321
                 },
                 {
                     "entPhysicalIndex": 32104,
@@ -21307,7 +21307,7 @@
                     "entPhysicalContainedIn": 321,
                     "entPhysicalParentRelPos": 4,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 321
                 },
                 {
                     "entPhysicalIndex": 32105,
@@ -21326,7 +21326,7 @@
                     "entPhysicalContainedIn": 321,
                     "entPhysicalParentRelPos": 5,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 321
                 },
                 {
                     "entPhysicalIndex": 32201,
@@ -21345,7 +21345,7 @@
                     "entPhysicalContainedIn": 322,
                     "entPhysicalParentRelPos": 1,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 322
                 },
                 {
                     "entPhysicalIndex": 32202,
@@ -21364,7 +21364,7 @@
                     "entPhysicalContainedIn": 322,
                     "entPhysicalParentRelPos": 2,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 322
                 },
                 {
                     "entPhysicalIndex": 32203,
@@ -21383,7 +21383,7 @@
                     "entPhysicalContainedIn": 322,
                     "entPhysicalParentRelPos": 3,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 322
                 },
                 {
                     "entPhysicalIndex": 32204,
@@ -21402,7 +21402,7 @@
                     "entPhysicalContainedIn": 322,
                     "entPhysicalParentRelPos": 4,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 322
                 },
                 {
                     "entPhysicalIndex": 32205,
@@ -21421,7 +21421,7 @@
                     "entPhysicalContainedIn": 322,
                     "entPhysicalParentRelPos": 5,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 322
                 },
                 {
                     "entPhysicalIndex": 32401,
@@ -21440,7 +21440,7 @@
                     "entPhysicalContainedIn": 324,
                     "entPhysicalParentRelPos": 1,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 324
                 },
                 {
                     "entPhysicalIndex": 32402,
@@ -21459,7 +21459,7 @@
                     "entPhysicalContainedIn": 324,
                     "entPhysicalParentRelPos": 2,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 324
                 },
                 {
                     "entPhysicalIndex": 32403,
@@ -21478,7 +21478,7 @@
                     "entPhysicalContainedIn": 324,
                     "entPhysicalParentRelPos": 3,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 324
                 },
                 {
                     "entPhysicalIndex": 32404,
@@ -21497,7 +21497,7 @@
                     "entPhysicalContainedIn": 324,
                     "entPhysicalParentRelPos": 4,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 324
                 },
                 {
                     "entPhysicalIndex": 32405,
@@ -21516,7 +21516,7 @@
                     "entPhysicalContainedIn": 324,
                     "entPhysicalParentRelPos": 5,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 324
                 },
                 {
                     "entPhysicalIndex": 32501,
@@ -21535,7 +21535,7 @@
                     "entPhysicalContainedIn": 325,
                     "entPhysicalParentRelPos": 1,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 325
                 },
                 {
                     "entPhysicalIndex": 32502,
@@ -21554,7 +21554,7 @@
                     "entPhysicalContainedIn": 325,
                     "entPhysicalParentRelPos": 2,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 325
                 },
                 {
                     "entPhysicalIndex": 32503,
@@ -21573,7 +21573,7 @@
                     "entPhysicalContainedIn": 325,
                     "entPhysicalParentRelPos": 3,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 325
                 },
                 {
                     "entPhysicalIndex": 32504,
@@ -21592,7 +21592,7 @@
                     "entPhysicalContainedIn": 325,
                     "entPhysicalParentRelPos": 4,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 325
                 },
                 {
                     "entPhysicalIndex": 32505,
@@ -21611,7 +21611,7 @@
                     "entPhysicalContainedIn": 325,
                     "entPhysicalParentRelPos": 5,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 325
                 },
                 {
                     "entPhysicalIndex": 34001,
@@ -21630,7 +21630,7 @@
                     "entPhysicalContainedIn": 340,
                     "entPhysicalParentRelPos": 1,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 340
                 },
                 {
                     "entPhysicalIndex": 34002,
@@ -21649,7 +21649,7 @@
                     "entPhysicalContainedIn": 340,
                     "entPhysicalParentRelPos": 2,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 340
                 },
                 {
                     "entPhysicalIndex": 34003,
@@ -21668,7 +21668,7 @@
                     "entPhysicalContainedIn": 340,
                     "entPhysicalParentRelPos": 3,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 340
                 },
                 {
                     "entPhysicalIndex": 34004,
@@ -21687,7 +21687,7 @@
                     "entPhysicalContainedIn": 340,
                     "entPhysicalParentRelPos": 4,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 340
                 },
                 {
                     "entPhysicalIndex": 34005,
@@ -21706,7 +21706,7 @@
                     "entPhysicalContainedIn": 340,
                     "entPhysicalParentRelPos": 5,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 340
                 },
                 {
                     "entPhysicalIndex": 34101,
@@ -21725,7 +21725,7 @@
                     "entPhysicalContainedIn": 341,
                     "entPhysicalParentRelPos": 1,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 341
                 },
                 {
                     "entPhysicalIndex": 34102,
@@ -21744,7 +21744,7 @@
                     "entPhysicalContainedIn": 341,
                     "entPhysicalParentRelPos": 2,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 341
                 },
                 {
                     "entPhysicalIndex": 34103,
@@ -21763,7 +21763,7 @@
                     "entPhysicalContainedIn": 341,
                     "entPhysicalParentRelPos": 3,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 341
                 },
                 {
                     "entPhysicalIndex": 34104,
@@ -21782,7 +21782,7 @@
                     "entPhysicalContainedIn": 341,
                     "entPhysicalParentRelPos": 4,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 341
                 },
                 {
                     "entPhysicalIndex": 34105,
@@ -21801,7 +21801,7 @@
                     "entPhysicalContainedIn": 341,
                     "entPhysicalParentRelPos": 5,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 341
                 },
                 {
                     "entPhysicalIndex": 34201,
@@ -21820,7 +21820,7 @@
                     "entPhysicalContainedIn": 342,
                     "entPhysicalParentRelPos": 1,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 342
                 },
                 {
                     "entPhysicalIndex": 34202,
@@ -21839,7 +21839,7 @@
                     "entPhysicalContainedIn": 342,
                     "entPhysicalParentRelPos": 2,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 342
                 },
                 {
                     "entPhysicalIndex": 34203,
@@ -21858,7 +21858,7 @@
                     "entPhysicalContainedIn": 342,
                     "entPhysicalParentRelPos": 3,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 342
                 },
                 {
                     "entPhysicalIndex": 34204,
@@ -21877,7 +21877,7 @@
                     "entPhysicalContainedIn": 342,
                     "entPhysicalParentRelPos": 4,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 342
                 },
                 {
                     "entPhysicalIndex": 34205,
@@ -21896,7 +21896,7 @@
                     "entPhysicalContainedIn": 342,
                     "entPhysicalParentRelPos": 5,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 342
                 },
                 {
                     "entPhysicalIndex": 34301,
@@ -21915,7 +21915,7 @@
                     "entPhysicalContainedIn": 343,
                     "entPhysicalParentRelPos": 1,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 343
                 },
                 {
                     "entPhysicalIndex": 34302,
@@ -21934,7 +21934,7 @@
                     "entPhysicalContainedIn": 343,
                     "entPhysicalParentRelPos": 2,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 343
                 },
                 {
                     "entPhysicalIndex": 34303,
@@ -21953,7 +21953,7 @@
                     "entPhysicalContainedIn": 343,
                     "entPhysicalParentRelPos": 3,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 343
                 },
                 {
                     "entPhysicalIndex": 34304,
@@ -21972,7 +21972,7 @@
                     "entPhysicalContainedIn": 343,
                     "entPhysicalParentRelPos": 4,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 343
                 },
                 {
                     "entPhysicalIndex": 34305,
@@ -21991,7 +21991,7 @@
                     "entPhysicalContainedIn": 343,
                     "entPhysicalParentRelPos": 5,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 343
                 },
                 {
                     "entPhysicalIndex": 38401,
@@ -22010,7 +22010,7 @@
                     "entPhysicalContainedIn": 384,
                     "entPhysicalParentRelPos": 1,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 384
                 },
                 {
                     "entPhysicalIndex": 38402,
@@ -22029,7 +22029,7 @@
                     "entPhysicalContainedIn": 384,
                     "entPhysicalParentRelPos": 2,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 384
                 },
                 {
                     "entPhysicalIndex": 38403,
@@ -22048,7 +22048,7 @@
                     "entPhysicalContainedIn": 384,
                     "entPhysicalParentRelPos": 3,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 384
                 },
                 {
                     "entPhysicalIndex": 38404,
@@ -22067,7 +22067,7 @@
                     "entPhysicalContainedIn": 384,
                     "entPhysicalParentRelPos": 4,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 384
                 },
                 {
                     "entPhysicalIndex": 38405,
@@ -22086,7 +22086,7 @@
                     "entPhysicalContainedIn": 384,
                     "entPhysicalParentRelPos": 5,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 384
                 },
                 {
                     "entPhysicalIndex": 38501,
@@ -22105,7 +22105,7 @@
                     "entPhysicalContainedIn": 385,
                     "entPhysicalParentRelPos": 1,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 385
                 },
                 {
                     "entPhysicalIndex": 38502,
@@ -22124,7 +22124,7 @@
                     "entPhysicalContainedIn": 385,
                     "entPhysicalParentRelPos": 2,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 385
                 },
                 {
                     "entPhysicalIndex": 38503,
@@ -22143,7 +22143,7 @@
                     "entPhysicalContainedIn": 385,
                     "entPhysicalParentRelPos": 3,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 385
                 },
                 {
                     "entPhysicalIndex": 38504,
@@ -22162,7 +22162,7 @@
                     "entPhysicalContainedIn": 385,
                     "entPhysicalParentRelPos": 4,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 385
                 },
                 {
                     "entPhysicalIndex": 38505,
@@ -22181,7 +22181,7 @@
                     "entPhysicalContainedIn": 385,
                     "entPhysicalParentRelPos": 5,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 385
                 },
                 {
                     "entPhysicalIndex": 38601,
@@ -22200,7 +22200,7 @@
                     "entPhysicalContainedIn": 386,
                     "entPhysicalParentRelPos": 1,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 386
                 },
                 {
                     "entPhysicalIndex": 38602,
@@ -22219,7 +22219,7 @@
                     "entPhysicalContainedIn": 386,
                     "entPhysicalParentRelPos": 2,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 386
                 },
                 {
                     "entPhysicalIndex": 38603,
@@ -22238,7 +22238,7 @@
                     "entPhysicalContainedIn": 386,
                     "entPhysicalParentRelPos": 3,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 386
                 },
                 {
                     "entPhysicalIndex": 38604,
@@ -22257,7 +22257,7 @@
                     "entPhysicalContainedIn": 386,
                     "entPhysicalParentRelPos": 4,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 386
                 },
                 {
                     "entPhysicalIndex": 38605,
@@ -22276,7 +22276,7 @@
                     "entPhysicalContainedIn": 386,
                     "entPhysicalParentRelPos": 5,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 386
                 },
                 {
                     "entPhysicalIndex": 38701,
@@ -22295,7 +22295,7 @@
                     "entPhysicalContainedIn": 387,
                     "entPhysicalParentRelPos": 1,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 387
                 },
                 {
                     "entPhysicalIndex": 38702,
@@ -22314,7 +22314,7 @@
                     "entPhysicalContainedIn": 387,
                     "entPhysicalParentRelPos": 2,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 387
                 },
                 {
                     "entPhysicalIndex": 38703,
@@ -22333,7 +22333,7 @@
                     "entPhysicalContainedIn": 387,
                     "entPhysicalParentRelPos": 3,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 387
                 },
                 {
                     "entPhysicalIndex": 38704,
@@ -22352,7 +22352,7 @@
                     "entPhysicalContainedIn": 387,
                     "entPhysicalParentRelPos": 4,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 387
                 },
                 {
                     "entPhysicalIndex": 38705,
@@ -22371,7 +22371,7 @@
                     "entPhysicalContainedIn": 387,
                     "entPhysicalParentRelPos": 5,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 387
                 },
                 {
                     "entPhysicalIndex": 38801,
@@ -22390,7 +22390,7 @@
                     "entPhysicalContainedIn": 388,
                     "entPhysicalParentRelPos": 1,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 388
                 },
                 {
                     "entPhysicalIndex": 38802,
@@ -22409,7 +22409,7 @@
                     "entPhysicalContainedIn": 388,
                     "entPhysicalParentRelPos": 2,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 388
                 },
                 {
                     "entPhysicalIndex": 38803,
@@ -22428,7 +22428,7 @@
                     "entPhysicalContainedIn": 388,
                     "entPhysicalParentRelPos": 3,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 388
                 },
                 {
                     "entPhysicalIndex": 38804,
@@ -22447,7 +22447,7 @@
                     "entPhysicalContainedIn": 388,
                     "entPhysicalParentRelPos": 4,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 388
                 },
                 {
                     "entPhysicalIndex": 38805,
@@ -22466,7 +22466,7 @@
                     "entPhysicalContainedIn": 388,
                     "entPhysicalParentRelPos": 5,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 388
                 },
                 {
                     "entPhysicalIndex": 51201,
@@ -22485,7 +22485,7 @@
                     "entPhysicalContainedIn": 512,
                     "entPhysicalParentRelPos": 1,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 512
                 },
                 {
                     "entPhysicalIndex": 51202,
@@ -22504,7 +22504,7 @@
                     "entPhysicalContainedIn": 512,
                     "entPhysicalParentRelPos": 2,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 512
                 },
                 {
                     "entPhysicalIndex": 51203,
@@ -22523,7 +22523,7 @@
                     "entPhysicalContainedIn": 512,
                     "entPhysicalParentRelPos": 3,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 512
                 },
                 {
                     "entPhysicalIndex": 51204,
@@ -22542,7 +22542,7 @@
                     "entPhysicalContainedIn": 512,
                     "entPhysicalParentRelPos": 4,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 512
                 },
                 {
                     "entPhysicalIndex": 51205,
@@ -22561,7 +22561,7 @@
                     "entPhysicalContainedIn": 512,
                     "entPhysicalParentRelPos": 5,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 512
                 },
                 {
                     "entPhysicalIndex": 51206,
@@ -22580,7 +22580,7 @@
                     "entPhysicalContainedIn": 512,
                     "entPhysicalParentRelPos": 6,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 512
                 },
                 {
                     "entPhysicalIndex": 51207,
@@ -22599,7 +22599,7 @@
                     "entPhysicalContainedIn": 512,
                     "entPhysicalParentRelPos": 7,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 512
                 },
                 {
                     "entPhysicalIndex": 51208,
@@ -22618,7 +22618,7 @@
                     "entPhysicalContainedIn": 512,
                     "entPhysicalParentRelPos": 8,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 512
                 },
                 {
                     "entPhysicalIndex": 51209,
@@ -22637,7 +22637,7 @@
                     "entPhysicalContainedIn": 512,
                     "entPhysicalParentRelPos": 9,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 512
                 },
                 {
                     "entPhysicalIndex": 51210,
@@ -22656,7 +22656,7 @@
                     "entPhysicalContainedIn": 512,
                     "entPhysicalParentRelPos": 10,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 512
                 },
                 {
                     "entPhysicalIndex": 51211,
@@ -22675,7 +22675,7 @@
                     "entPhysicalContainedIn": 512,
                     "entPhysicalParentRelPos": 11,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 512
                 },
                 {
                     "entPhysicalIndex": 51212,
@@ -22694,7 +22694,7 @@
                     "entPhysicalContainedIn": 512,
                     "entPhysicalParentRelPos": 12,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 512
                 },
                 {
                     "entPhysicalIndex": 51213,
@@ -22713,7 +22713,7 @@
                     "entPhysicalContainedIn": 512,
                     "entPhysicalParentRelPos": 13,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 512
                 },
                 {
                     "entPhysicalIndex": 51214,
@@ -22732,7 +22732,7 @@
                     "entPhysicalContainedIn": 512,
                     "entPhysicalParentRelPos": 14,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 512
                 },
                 {
                     "entPhysicalIndex": 51601,
@@ -22751,7 +22751,7 @@
                     "entPhysicalContainedIn": 516,
                     "entPhysicalParentRelPos": 1,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 516
                 },
                 {
                     "entPhysicalIndex": 51602,
@@ -22770,7 +22770,7 @@
                     "entPhysicalContainedIn": 516,
                     "entPhysicalParentRelPos": 2,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 516
                 },
                 {
                     "entPhysicalIndex": 51603,
@@ -22789,7 +22789,7 @@
                     "entPhysicalContainedIn": 516,
                     "entPhysicalParentRelPos": 3,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 516
                 },
                 {
                     "entPhysicalIndex": 51604,
@@ -22808,7 +22808,7 @@
                     "entPhysicalContainedIn": 516,
                     "entPhysicalParentRelPos": 4,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 516
                 },
                 {
                     "entPhysicalIndex": 51605,
@@ -22827,7 +22827,7 @@
                     "entPhysicalContainedIn": 516,
                     "entPhysicalParentRelPos": 5,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 516
                 },
                 {
                     "entPhysicalIndex": 51606,
@@ -22846,7 +22846,7 @@
                     "entPhysicalContainedIn": 516,
                     "entPhysicalParentRelPos": 6,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 516
                 },
                 {
                     "entPhysicalIndex": 51607,
@@ -22865,7 +22865,7 @@
                     "entPhysicalContainedIn": 516,
                     "entPhysicalParentRelPos": 7,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 516
                 },
                 {
                     "entPhysicalIndex": 51608,
@@ -22884,7 +22884,7 @@
                     "entPhysicalContainedIn": 516,
                     "entPhysicalParentRelPos": 8,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 516
                 },
                 {
                     "entPhysicalIndex": 51609,
@@ -22903,7 +22903,7 @@
                     "entPhysicalContainedIn": 516,
                     "entPhysicalParentRelPos": 9,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 516
                 },
                 {
                     "entPhysicalIndex": 51610,
@@ -22922,7 +22922,7 @@
                     "entPhysicalContainedIn": 516,
                     "entPhysicalParentRelPos": 10,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 516
                 },
                 {
                     "entPhysicalIndex": 51611,
@@ -22941,7 +22941,7 @@
                     "entPhysicalContainedIn": 516,
                     "entPhysicalParentRelPos": 11,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 516
                 },
                 {
                     "entPhysicalIndex": 51612,
@@ -22960,7 +22960,7 @@
                     "entPhysicalContainedIn": 516,
                     "entPhysicalParentRelPos": 12,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 516
                 },
                 {
                     "entPhysicalIndex": 51613,
@@ -22979,7 +22979,7 @@
                     "entPhysicalContainedIn": 516,
                     "entPhysicalParentRelPos": 13,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 516
                 },
                 {
                     "entPhysicalIndex": 51614,
@@ -22998,10 +22998,159 @@
                     "entPhysicalContainedIn": 516,
                     "entPhysicalParentRelPos": 14,
                     "entPhysicalMfgName": "Extreme",
-                    "ifIndex": null
+                    "ifIndex": 516
                 }
             ]
         },
         "poller": "matches discovery"
+    },
+    "discovery-protocols": {
+        "discovery": {
+            "links": [
+                {
+                    "active": 1,
+                    "protocol": "lldp",
+                    "remote_hostname": "cdc.can1",
+                    "remote_port": "2/16 (646a52c19c00)",
+                    "remote_platform": null,
+                    "remote_version": "VSP-8404 (6.1.3.0)",
+                    "ifAlias": "cdc.can1.nni",
+                    "ifDescr": "Extreme Networks Virtual Services Platform 8608 Module 8624XS - 10GbCX Port 3/4",
+                    "ifName": "3/4"
+                },
+                {
+                    "active": 1,
+                    "protocol": "lldp",
+                    "remote_hostname": "cdc.d1.8k",
+                    "remote_port": "2/18 (646a52dd3400)",
+                    "remote_platform": null,
+                    "remote_version": "VSP-8404C (7.1.0.0)",
+                    "ifAlias": "cdc.d1.8k.nni",
+                    "ifDescr": "Extreme Networks Virtual Services Platform 8608 Module 8616QQ - 40GbCR4 Port 1/1",
+                    "ifName": "1/1"
+                },
+                {
+                    "active": 1,
+                    "protocol": "lldp",
+                    "remote_hostname": "cdc.i1.8k",
+                    "remote_port": "64 6A 52 D0 BC 0E (646a52d0bc0e)",
+                    "remote_platform": null,
+                    "remote_version": "VSP-8404C (6.1.0.0)",
+                    "ifAlias": "cdc.i1.nni",
+                    "ifDescr": "Extreme Networks Virtual Services Platform 8608 Module 8624XS - 10GbSR Port 3/3",
+                    "ifName": "3/3"
+                },
+                {
+                    "active": 1,
+                    "protocol": "lldp",
+                    "remote_hostname": "cdc.i1.8k",
+                    "remote_port": "64 6A 52 D0 BC 2E (646a52d0bc2e)",
+                    "remote_platform": null,
+                    "remote_version": "VSP-8404C (6.1.0.0)",
+                    "ifAlias": "cdc.i1.nni",
+                    "ifDescr": "Extreme Networks Virtual Services Platform 8608 Module 8624XS - 10GbSR Port 4/3",
+                    "ifName": "4/3"
+                },
+                {
+                    "active": 1,
+                    "protocol": "lldp",
+                    "remote_hostname": "cdc.s1.8k",
+                    "remote_port": "2/2 (b42d56979000)",
+                    "remote_platform": null,
+                    "remote_version": "VSP-8608 (6.2.0.2)",
+                    "ifAlias": "cdc.sx.nni",
+                    "ifDescr": "Extreme Networks Virtual Services Platform 8608 Module 8606CQ - 100GbSR4 Port 2/2",
+                    "ifName": "2/2"
+                },
+                {
+                    "active": 1,
+                    "protocol": "lldp",
+                    "remote_hostname": "cdc.s2.8k",
+                    "remote_port": "2/2 (b42d5695f000)",
+                    "remote_platform": null,
+                    "remote_version": "VSP-8608 (6.2.0.2)",
+                    "ifAlias": "cdc.sx.nni",
+                    "ifDescr": "Extreme Networks Virtual Services Platform 8608 Module 8606CQ - 100GbSR4 Port 6/2",
+                    "ifName": "6/2"
+                },
+                {
+                    "active": 1,
+                    "protocol": "lldp",
+                    "remote_hostname": "cdc.u1.8400",
+                    "remote_port": "1/24 (646a52a24800)",
+                    "remote_platform": null,
+                    "remote_version": "VSP-8404 (6.1.4.0)",
+                    "ifAlias": "cdc.u1.nni",
+                    "ifDescr": "Extreme Networks Virtual Services Platform 8608 Module 8624XS - 10GbSR Port 3/6",
+                    "ifName": "3/6"
+                },
+                {
+                    "active": 1,
+                    "protocol": "lldp",
+                    "remote_hostname": "chr.can1",
+                    "remote_port": "2/16 (646a52c18000)",
+                    "remote_platform": null,
+                    "remote_version": "VSP-8404 (6.1.3.0)",
+                    "ifAlias": "chr.can1.nni",
+                    "ifDescr": "Extreme Networks Virtual Services Platform 8608 Module 8624XS - 10GbER Port 3/5",
+                    "ifName": "3/5"
+                },
+                {
+                    "active": 1,
+                    "protocol": "lldp",
+                    "remote_hostname": "adc.a1.8k",
+                    "remote_port": "3/1 (b42d56954000)",
+                    "remote_platform": null,
+                    "remote_version": "VSP-8608 (6.2.0.2)",
+                    "ifAlias": "core: c1.8k->a1.8k",
+                    "ifDescr": "Extreme Networks Virtual Services Platform 8608 Module 8624XS - 10GbLR Port 3/2",
+                    "ifName": "3/2"
+                },
+                {
+                    "active": 1,
+                    "protocol": "lldp",
+                    "remote_hostname": "ppark.c2.8k",
+                    "remote_port": "2/1 (b42d5696f000)",
+                    "remote_platform": null,
+                    "remote_version": "VSP-8608 (6.2.0.2)",
+                    "ifAlias": "cx.nni",
+                    "ifDescr": "Extreme Networks Virtual Services Platform 8608 Module 8606CQ - 100GbLR4 Port 2/1",
+                    "ifName": "2/1"
+                },
+                {
+                    "active": 1,
+                    "protocol": "lldp",
+                    "remote_hostname": "ppark.c2.8k",
+                    "remote_port": "6/1 (b42d5696f000)",
+                    "remote_platform": null,
+                    "remote_version": "VSP-8608 (6.2.0.2)",
+                    "ifAlias": "cx.nni",
+                    "ifDescr": "Extreme Networks Virtual Services Platform 8608 Module 8606CQ - 100GbLR4 Port 6/1",
+                    "ifName": "6/1"
+                },
+                {
+                    "active": 1,
+                    "protocol": "lldp",
+                    "remote_hostname": "kews.u2.8400",
+                    "remote_port": "1/23 (646a529f5800)",
+                    "remote_platform": null,
+                    "remote_version": "VSP-8404 (6.1.4.0)",
+                    "ifAlias": "kews.u2.nni",
+                    "ifDescr": "Extreme Networks Virtual Services Platform 8608 Module 8624XS - 10GbER1590 Port 4/4",
+                    "ifName": "4/4"
+                },
+                {
+                    "active": 1,
+                    "protocol": "lldp",
+                    "remote_hostname": "ppark.d2.8k",
+                    "remote_port": "1/18 (646a52dd1800)",
+                    "remote_platform": null,
+                    "remote_version": "VSP-8404C (7.1.0.0)",
+                    "ifAlias": "ppark.d2.nni",
+                    "ifDescr": "Extreme Networks Virtual Services Platform 8608 Module 8616QQ - 40GbLR4 Port 1/2",
+                    "ifName": "1/2"
+                }
+            ]
+        }
     }
 }

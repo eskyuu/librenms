@@ -1,8 +1,30 @@
 <tr>
     <td>
-        <x-port-link :port="$port">
-            <span class="tw-text-3xl tw-font-bold"><i class="fa fa-tag" aria-hidden='true'></i> {{ $port->getLabel() }}</span>
-        </x-port-link>
+        <div>
+            <x-port-link :port="$port" class="tw-inline">
+                <span class="tw-text-3xl tw-font-bold"><i class="fa fa-tag" aria-hidden='true'></i> {{ $port->getLabel() }}</span>
+            </x-port-link>
+            @if($data['tab'] != 'basic')
+            @foreach($port->transceivers as $transceiver)
+                @php
+                    $transceiver->setRelation('port', $port); // save a query
+                @endphp
+                <x-popup>
+                    <a href="{{ \LibreNMS\Util\Url::generate(['page' => 'device', 'device' => $port->device_id, 'tab' => 'port','port' => $port->port_id], ['view' => 'transceiver']) }}" class="tw-text-current">
+                        <span class="tw-ml-3 tw-text-3xl"><x-icons.transceiver/></span>
+                    </a>
+                    <x-slot name="body" class="tw-p-0">
+                        @if(array_filter($transceiver->only(['type', 'vendor', 'model', 'revision', 'serial', 'data', 'ddm', 'encoding', 'cable', 'distance', 'wavelength', 'connector'])))
+                            <div class="tw-opacity-90 tw-p-4 tw-border-b-2 tw-border-solid tw-border-gray-200 dark:tw-border-dark-gray-200 tw-rounded-t-lg">
+                                <x-transceiver :transceiver="$transceiver" :portlink="false"></x-transceiver>
+                            </div>
+                        @endif
+                        <x-transceiver-sensors :transceiver="$transceiver" class="tw-p-3"></x-transceiver-sensors>
+                    </x-slot>
+                </x-popup>
+            @endforeach
+            @endif
+        </div>
         <div>
             @if($port->ifInErrors_delta > 0 || $port->ifOutErrors_delta > 0)
                 <a href="{{ route('device', ['device' => $port->device_id, 'tab' => 'port', 'vars' => 'port=' . $port->port_id]) }}"><i class="fa fa-flag fa-lg tw-text-red-600"></i></a>
@@ -67,9 +89,9 @@
         @endif
         @if($port->vlans->isNotEmpty())
             <div class="tw-text-blue-800">
-                <a href="{{ \LibreNMS\Util\Url::deviceUrl($device->device_id, ['tab' => 'vlans']) }}">
+                <a href="{{ \LibreNMS\Util\Url::deviceUrl($port->device_id, ['tab' => 'vlans']) }}">
                     @if($port->vlans->count() > 1)
-                        <span title="{{ $port->vlans->pluck('vlan')->implode(',') }}">{{ __('port.vlan_count', ['count' => $port->vlans->count()]) }}</span>
+                        <span title="{{ $port->vlans->sortby('vlan')->pluck('vlan')->implode(',') }}">{{ __('port.vlan_count', ['count' => $port->vlans->count()]) }}</span>
                     @elseif($port->vlans->count() == 1 || $port->ifVlan)
                         {{ __('port.vlan_label', ['label' => $port->vlans->first()->vlan ?: $port->ifVlan]) }}
                     @endif
@@ -102,25 +124,25 @@
         <div>{{ $port->ifMtu ? __('port.mtu_label', ['mtu' => $port->ifMtu]) : '' }}</div>
     </td>
     <td @if($collapsing)class="tw-hidden md:tw-table-cell"@endif>
-        <x-expandable height="4em">
+        <x-expandable height="5.8em">
             @foreach($data['neighbors'][$port->port_id] as $port_id => $neighbor)
                 <div>
                     @php
-                        $np = $data['neighbor_ports']->get($neighbor['port_id']);
+                        $np = $data['neighbor_ports']?->get($neighbor['port_id']) ?? \App\Models\Port::find($neighbor['port_id']);
                     @endphp
                     @if($np)
                         @if(isset($neighbor['link']))
-                            <i class="fa fa-link fa-lg" aria-hidden="true"></i>
+                            <i class="fa fa-link" aria-hidden="true"></i>
                         @elseif(isset($neighbor['pseudowire']))
-                            <i class="fa fa-arrows-left-right fa-lg" aria-hidden="true"></i>
-                        @elseif(isset($neighbor['stack_low']))
-                            <i class="fa fa-expand fa-lg" aria-hidden="true"></i>
-                        @elseif(isset($neighbor['stack_high']))
-                            <i class="fa fa-compress fa-lg" aria-hidden="true"></i>
+                            <i class="fa fa-arrows-left-right" aria-hidden="true"></i>
+                        @elseif(isset($neighbor['stack_parent']))
+                            <i class="fa fa-expand" aria-hidden="true"></i>
+                        @elseif(isset($neighbor['stack_child']))
+                            <i class="fa fa-compress" aria-hidden="true"></i>
                         @elseif(isset($neighbor['pagp']))
-                            <i class="fa fa-cube fa-lg tw-text-green-600" aria-hidden="true"></i>
+                            <i class="fa fa-cube tw-text-green-600" aria-hidden="true"></i>
                         @else
-                            <i class="fa fa-arrow-right fa-lg" aria-hidden="true"></i>
+                            <i class="fa fa-arrow-right" aria-hidden="true"></i>
                         @endif
 
                         <x-port-link :port="$np"></x-port-link>

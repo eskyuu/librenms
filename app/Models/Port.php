@@ -50,7 +50,7 @@ class Port extends DeviceRelatedModel
             // dont have relationships yet
             DB::table('juniAtmVp')->where('port_id', $port->port_id)->delete();
             DB::table('ports_perms')->where('port_id', $port->port_id)->delete();
-            DB::table('ports_stack')->where('port_id_low', $port->port_id)->orWhere('port_id_high', $port->port_id)->delete();
+            DB::table('ports_stack')->where('low_port_id', $port->port_id)->orWhere('high_port_id', $port->port_id)->delete();
 
             \Rrd::purge($port->device?->hostname, \Rrd::portName($port->port_id)); // purge all port rrd files
         });
@@ -383,6 +383,16 @@ class Port extends DeviceRelatedModel
         return $this->hasMany(Pseudowire::class, 'port_id');
     }
 
+    public function stackChildren(): HasManyThrough
+    {
+        return $this->hasManyThrough(Port::class, PortStack::class, 'low_port_id', 'port_id', 'port_id', 'high_port_id');
+    }
+
+    public function stackParent(): HasManyThrough
+    {
+        return $this->hasManyThrough(Port::class, PortStack::class, 'high_port_id', 'port_id', 'port_id', 'low_port_id');
+    }
+
     public function statistics(): HasMany
     {
         return $this->hasMany(PortStatistic::class, 'port_id');
@@ -391,6 +401,11 @@ class Port extends DeviceRelatedModel
     public function stp(): HasMany
     {
         return $this->hasMany(PortStp::class, 'port_id');
+    }
+
+    public function transceivers(): HasMany
+    {
+        return $this->hasMany(Transceiver::class, 'port_id');
     }
 
     public function users(): BelongsToMany

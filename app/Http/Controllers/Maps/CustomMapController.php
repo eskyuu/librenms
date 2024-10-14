@@ -241,6 +241,12 @@ class CustomMapController extends Controller
             }
         }
 
+        foreach (CustomMapNodeImage::all() as $image) {
+            $images[$image->custom_map_node_image_id] = $image->name;
+        }
+
+        asort ($images);
+
         return $images;
     }
 

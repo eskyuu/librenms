@@ -1273,6 +1273,9 @@ return [
             'ipmi' => [
                 'description' => 'IPMI',
             ],
+            'qos' => [
+                'description' => 'QoS',
+            ],
             'sensors' => [
                 'description' => 'Sensors',
             ],

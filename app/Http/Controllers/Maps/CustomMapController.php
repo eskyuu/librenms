@@ -78,6 +78,19 @@ class CustomMapController extends Controller
                     'enabled' => false,
                 ],
             ],
+            'map_options' => [
+                'interaction' => [
+                    'dragNodes' => false,
+                    'dragView' => false,
+                    'zoomView' => false,
+                ],
+                'manipulation' => [
+                    'enabled' => false,
+                ],
+                'physics' => [
+                    'enabled' => false,
+                ],
+            ],
         ]);
     }
 
@@ -134,6 +147,7 @@ class CustomMapController extends Controller
             'newedge_conf' => $map->newedgeconfig,
             'newnode_conf' => $map->newnodeconfig,
             'map_conf' => $map->options,
+            'map_options' => $map->options,
             'background_type' => $map->background_type,
             'background_config' => $map->getBackgroundConfig(),
             'edit' => true,
@@ -212,6 +226,7 @@ class CustomMapController extends Controller
     public function update(CustomMapSettingsRequest $request, CustomMap $map): JsonResponse
     {
         $map->fill($request->validated());
+        $map->options = json_decode($request->options);
         $map->save(); // save to get ID
 
         return response()->json([
@@ -222,6 +237,7 @@ class CustomMapController extends Controller
             'height' => $map->height,
             'reverse_arrows' => $map->reverse_arrows,
             'edge_separation' => $map->edge_separation,
+            'options' => $map->options,
         ]);
     }
 

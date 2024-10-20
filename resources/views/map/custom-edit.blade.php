@@ -485,10 +485,11 @@
         // Re-create the network because network.setSize() blanks out the map
         CreateNetwork();
 
-        editMapCancel();
+        $('#mapModal').modal('hide');
     }
 
     function editMapCancel() {
+        mapSettingsReset();
         $('#mapModal').modal('hide');
     }
 

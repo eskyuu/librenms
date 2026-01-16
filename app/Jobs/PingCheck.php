@@ -37,6 +37,7 @@ use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Log;
 use LibreNMS\Alert\AlertRules;
 use LibreNMS\Data\Source\Fping;
+use LibreNMS\Data\Source\FpingAliveResponse;
 use LibreNMS\Data\Source\FpingResponse;
 use LibreNMS\Enum\AvailabilitySource;
 
@@ -81,7 +82,11 @@ class PingCheck implements ShouldQueue
         Log::info('Processing hosts in this order : ' . implode(', ', $ordered_hostname_list));
 
         // bulk ping and send FpingResponse's to recordData as they come in
-        app()->make(Fping::class)->bulkPing($ordered_hostname_list, $this->handleResponse(...));
+        if (true) {
+            app()->make(Fping::class)->bulkPing($ordered_hostname_list, $this->handleResponse(...));
+        } else {
+            app()->make(Fping::class)->bulkAlive($ordered_hostname_list, $this->handleAliveResponse(...));
+        }
 
         // check for any left over devices
         if ($this->deferred->isNotEmpty()) {
@@ -181,6 +186,62 @@ class PingCheck implements ShouldQueue
 
         // save last_ping_timetaken and rrd data
         $response->saveStats($device);
+
+        // mark as processed
+        $this->processed->put($device->device_id, true);
+        Log::debug("Recorded data for $device->hostname");
+
+        if ($changed) { // only run alert rules if status changed
+            $type = $device->status ? 'up' : 'down';
+            Log::debug("Device $device->hostname changed status to $type, running alerts");
+
+            if (count($waiting_on) === 0) {
+                $this->runAlerts($device->device_id);
+            } else {
+                Log::debug('Alerts Deferred');
+
+                $this->deferred->put($device->device_id, $device->parents);
+                foreach ($waiting_on as $parent_id) {
+                    Log::debug("Adding $device->device_id to list waiting for $parent_id");
+
+                    if ($this->waiting_on->has($parent_id)) {
+                        $child_list = $this->waiting_on->get($parent_id);
+                        $child_list->put($device->device_id, true);
+                    } else {
+                        // create a new entry containing this device
+                        $this->waiting_on->put($parent_id, collect([$device->device_id => true]));
+                    }
+                }
+            }
+        }
+
+        $this->runDeferredAlerts($device->device_id);
+    }
+
+    /**
+     * Record the data and run alerts if all parents have been processed
+     */
+    public function handleAliveResponse(FpingAliveResponse $response): void
+    {
+        Log::debug("Attempting to record data for $response->host");
+
+        $device = $this->devices->get($response->host);
+
+        if ($device === null) {
+            Log::error("Ping host from response not found $response->host");
+
+            return;
+        }
+
+        $waiting_on = [];
+        foreach ($device->parents ?? [] as $parent) {
+            if (! $this->processed->has($parent->device_id)) {
+                $waiting_on[] = $parent->device_id;
+            }
+        }
+
+        // mark up only if snmp is not down too
+        $changed = app(SetDeviceAvailability::class)->execute($device, $response->success(), AvailabilitySource::ICMP, true);
 
         // mark as processed
         $this->processed->put($device->device_id, true);

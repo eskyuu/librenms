@@ -106,7 +106,7 @@ class Fping
         $process->disableOutput();
         $process->run();
 
-        Log::debug('response: ' . ($process->isSuccessful() ? 'success' : 'fail'));
+        Log::debug('response: ' . ($process->isSuccessful() ? "success" : "fail"));
 
         return $process->isSuccessful();
     }
@@ -145,6 +145,60 @@ class Fping
                         } catch (FpingUnparsableLine $e) {
                             // handle possible partial line (only save it if it is the last line of output)
                             $partial = $index === array_key_last($lines) ? $e->unparsedLine : '';
+                        }
+                    }
+                }
+            }
+        });
+    }
+
+    public function bulkAlive(array $hosts, callable $callback): void
+    {
+        $process = app()->make(Process::class, ['command' => [
+            LibrenmsConfig::get('fping', 'fping'),
+            '-f',
+            '-',
+            '-t',
+            $this->timeout,
+            '-r',
+            $this->count,
+            '-O',
+            $this->tos,
+        ]]);
+
+        // twice polling interval
+        $process->setTimeout(LibrenmsConfig::get('rrd.step', 300) * 2);
+        // send hostnames to stdin to avoid overflowing cli length limits
+        $process->setInput(implode(PHP_EOL, $hosts) . PHP_EOL);
+
+        Log::debug('[FPING] ' . $process->getCommandLine() . PHP_EOL);
+
+        $partialerr = '';
+        $partialout = '';
+        $process->run(function ($type, $output) use ($callback, &$partialerr, &$partialout): void {
+            // stdout contains individual ping responses, stderr contains summaries
+            $lines = explode(PHP_EOL, $output);
+            foreach ($lines as $index => $line) {
+                if ($line) {
+                    if ($type == Process::ERR) {
+                        Log::debug("Fping OUTPUT|$line PARTIAL|$partialerr");
+                        try {
+                            $response = FpingAliveResponse::parseLine($partialerr . $line);
+                            call_user_func($callback, $response);
+                            $partialerr = '';
+                        } catch (FpingUnparsableLine $e) {
+                            // handle possible partial line (only save it if it is the last line of output)
+                            $partialerr = $index === array_key_last($lines) ? $e->unparsedLine : '';
+                        }
+                    } elseif ($type == Process::OUT) {
+                        Log::debug("Fping OUTPUT|$line PARTIAL|$partialout");
+                        try {
+                            $response = FpingAliveResponse::parseLine($partialout . $line);
+                            call_user_func($callback, $response);
+                            $partialout = '';
+                        } catch (FpingUnparsableLine $e) {
+                            // handle possible partial line (only save it if it is the last line of output)
+                            $partialout = $index === array_key_last($lines) ? $e->unparsedLine : '';
                         }
                     }
                 }

@@ -93,7 +93,7 @@ class Rrd extends BaseDatastore
             ' RRA:LAST:0.5:1:2016 '
         )));
         $this->version = LibrenmsConfig::get('rrdtool_version', '1.4');
-        $this->backend = class_exists('\RRDGraph') ? new PhpRrd() : new RrtoolRrd();
+        $this->backend = class_exists('\RRDGraph') ? new PhpRrd() : new RrdtoolRrd();
     }
 
     /**

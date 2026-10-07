@@ -79,13 +79,18 @@ final readonly class RrdPath implements \Stringable
      */
     public function defaultPath(): string
     {
-        $rrdcached = (string) LibrenmsConfig::get('rrdcached');
-
-        if ($rrdcached === '' || str_starts_with($rrdcached, 'unix:') || str_starts_with($rrdcached, '/')) {
-            return $this->fullPath();
+        if ($this->usesRemoteCached()) {
+            return $this->relativePath();
         }
 
-        return $this->relativePath();
+        return $this->fullPath();
+    }
+
+    public function usesRemoteCached(): bool
+    {
+        $rrdcached = (string) LibrenmsConfig::get('rrdcached');
+
+        return ($rrdcached != '' && ! str_starts_with($rrdcached, 'unix:') && ! str_starts_with($rrdcached, '/'));
     }
 
     public function __toString(): string

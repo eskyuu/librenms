@@ -317,6 +317,11 @@ class Rrd extends BaseDatastore
      */
     public static function checkDirExists(RrdPath $rrdpath): bool
     {
+        // There is no need to create directories when using a remote rrdcached
+        if ($rrd_dir->usesRemoteCached()) {
+            return true;
+        }
+
         $rrd_dir = $rrdpath->fullPath();
         if (is_dir($rrd_dir)) {
             return true;
